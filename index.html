@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8"">
+
+<title>Compound Interest Calculator App</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css\style.css">
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/app.js"></script>
+
+</head>
+
+
+<header>
+
+<h1>Isaac And Lee's Compound Interest Calculator</h1>
+
+</header>
+
+
+
+<body>
+
+
+
+
+<form class="form-horizontal">
+
+<div class="form-group">
+
+<label class="col-sm-2 control-label">
+
+What is the principal?</label>
+
+
+
+<div class="col-sm-10">
+<input type="text" placeholder="Enter Principle" class="princ">
+</div>
+</div>
+
+
+<form class="form-horizontal">
+
+<div class="form-group">
+
+<label class="col-sm-2 control-label">
+
+How long will we compound Interest?</label>
+
+
+
+<div class="col-sm-10">
+<input type="text" placeholder="# of years" class="intr">
+</div>
+</div>
+
+<form class="form-horizontal">
+
+<div class="form-group">
+
+<label class="col-sm-2 control-label">
+
+What is the Interest rate?</label>
+
+
+
+<div class="col-sm-10">
+<input type="text" placeholder="Current interest-rate" class="rate" >
+</div>
+</div>
+
+<form class="form-horizontal">
+
+<div class="form-group">
+
+<label class="col-sm-2 control-label">
+
+How many cycles per your will Interest be compounded?</label>
+
+
+
+<div class="col-sm-10">
+<input type="text" placeholder="Cycles per year" class="cycle">
+</div>
+</div>
+
+<br>
+<br>
+
+
+<div class="calc"><button type="submit" id="button" class="btn btn-danger col-sm-2">Calculate</button></div>
+<br>
+<br>
+<div id="append">
+
+</div>
+
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<footer>
+
+
+</footer>
+
+
+
+
+
+</html>
