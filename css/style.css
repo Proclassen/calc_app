@@ -1,0 +1,41 @@
+#main-heading {
+	text-align: center;
+	font-size: 40px;
+
+}
+
+#append{
+	margin-top: 2em;
+}
+
+.btn {
+	margin-right:15px;
+
+}
+
+.h2main	{
+
+	color: red;
+}
+
+body	{
+	background-color: black;
+	color: 	#D46A6A;
+	}
+footer	{
+color: gold;	
+margin-left: 1.9em;
+}
+
+}
+
+.valen	{
+
+color: yellow;
+}
+
+#append	{
+font-weight: bold;
+color: darkgreen;
+
+}
